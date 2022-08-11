@@ -193,7 +193,7 @@ function collisions() {
         gobyspideyy = Math.abs(gobytop - spideytop)
 
         // console.log(gobyspideyx, gobyspideyy);
-        if (gobyspideyx < 100 && gobyspideyy < 80) {
+        if (gobyspideyx < 50 && gobyspideyy < 80) {
             clearInterval(count, 100)
             gameover.play()
             knife.play()
