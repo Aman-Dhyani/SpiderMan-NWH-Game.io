@@ -146,18 +146,15 @@ body {
     10% {
         left: 80%;
         top: 70%;
-        z-index: -1;
     }
 
     15% {
-        z-index: -1;
         top: 50%;
         background-image: url(images/electro-current.gif);
         background-size: 100% 100%;
     }
 
     30% {
-        z-index: 1;
         top: 40%;
         background-image: url(images/electro.png);
         background-size: 100% 100%;
