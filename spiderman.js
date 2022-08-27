@@ -213,7 +213,7 @@ function collisions() {
         }
 
         // --------------------- collision detection for Doc car & spidey ---------------------------
-        if (carspideyx < 100 && spideytop < 500) {
+        if (carspideyx < 100 && spideytop < 480) {
             clearInterval(count, 100)
             gameover.play()
             carsound.play()
