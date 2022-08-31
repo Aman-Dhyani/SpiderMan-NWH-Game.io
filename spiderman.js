@@ -153,7 +153,7 @@ function collisions() {
             location.reload();
         }
 
-        console.log(coundown);
+        //console.log(coundown);
     }, 1000);
 
 
@@ -213,7 +213,7 @@ function collisions() {
         }
 
         // --------------------- collision detection for Doc car & spidey ---------------------------
-        if (carspideyx < 100 && spideytop < 480) {
+        if (carspideyx < 100 && spideytop < 445) {
             clearInterval(count, 100)
             gameover.play()
             carsound.play()
