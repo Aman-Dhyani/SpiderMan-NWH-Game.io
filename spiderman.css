@@ -17,23 +17,43 @@ body {
     background-size: 100% 80vh;
     margin: auto;
     border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#play {
-    height: 3%;
-    width: 20%;
-    position: relative;
-    border: white 1px solid;
-    text-align: center;
-    font-family: fantasy;
-    font-size: 20px;
-    margin: 20px auto;
-    color: whitesmoke;
-    padding: 5%;
+/* CSS */
+.button-74 {
+    height: 10vh;
+    width: 120px;
+    background-color: #fbeee0;
+    border: 2px solid red;
+    border-radius: 30px;
+    box-shadow: black 4px 4px 0 0;
+    color: orangered;
     cursor: pointer;
-    z-index: 5;
-    background-image: linear-gradient(red, orangered);
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position:absolute;
+    bottom: 70%;
+    font-size: 10px;
+  }
+  
+  .button-74:hover {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-74 {
+        
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
+
 
 #spider {
     height: 15%;
